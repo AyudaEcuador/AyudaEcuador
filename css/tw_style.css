@@ -15,3 +15,7 @@
   width:75px;
   height: 75px;
 }
+
+.btn-default{
+  border-radius: 24px;
+}
