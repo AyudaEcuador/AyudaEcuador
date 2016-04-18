@@ -1,5 +1,12 @@
-.thumbnail a>img, .thumbnail>img {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
+.thumbnail {
+  border: none !important;
+}
+
+.thumbnail > img{
+  height:100px;
+  width: 100px;
+}
+
+.thumbnail h3 {
+  font-size: 18px;
 }
