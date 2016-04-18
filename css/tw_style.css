@@ -1,4 +1,4 @@
-.thumbnail>img {
+.thumbnail a>img, .thumbnail>img {
   width: 150px;
   height: 150px;
   border-radius: 50%;
