@@ -19,3 +19,8 @@
 .btn-default{
   border-radius: 24px;
 }
+
+.btn-xlg{
+  width: 500px;
+  height: 100px;
+}
