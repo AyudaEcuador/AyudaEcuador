@@ -21,11 +21,11 @@
 }
 
 .btn-xlg{
-  font-size:28px; 
-  border-color: #d3d3d3; 
-  border-style: solid; 
-  border-width: 3px; 
-  width:370px; 
+  font-size:28px;
+  border-color: #d3d3d3;
+  border-style: solid;
+  border-width: 3px;
+  width:370px;
   color:#7e7e7e;
 }
 
@@ -35,4 +35,15 @@
 
 .tw-blue:hover {
     background-color: ##00B0FF !important;
+}
+
+.tw-title {
+  font-size: 90px;
+  color: white;
+  font-weight: bold;
+}
+
+.tw-chevron-down {
+  font-size: 70px;
+  color: white;
 }
