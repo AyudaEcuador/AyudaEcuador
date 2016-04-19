@@ -1,3 +1,26 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #424242;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 5px;
+}
+
 .container>.navbar-header {
     margin-right: 0;
     margin-left: 0;
@@ -106,4 +129,12 @@ p {
 
 .tw-map{
     border: 0;
+}
+
+footer {
+  background-color: #424242;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
 }
