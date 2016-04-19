@@ -41,22 +41,29 @@ of those sections to manage the look and feel of the site. */
 }
 
 .quienessomos-section {
-    padding-top: 150px;
+    padding-top: 50px;
     text-align: center;
     background: #eee;
     padding-bottom: 50px;
 }
 
 .reporte-section {
-    padding-top: 150px;
+    padding-top: 50px;
     text-align: center;
     background: #fff;
     padding-bottom: 50px;
 }
 
 .recursos-section {
-    padding-top: 150px;
+    padding-top: 50px;
     text-align: center;
     background: #eee;
+    padding-bottom: 50px;
+}
+
+.enlaces-section {
+    padding-top: 50px;
+    text-align: center;
+    background: #fff;
     padding-bottom: 50px;
 }
