@@ -103,3 +103,7 @@ p {
     vertical-align: middle;
     float: none;
 }
+
+.tw-map{
+    border: 0;
+}
