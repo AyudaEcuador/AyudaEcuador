@@ -1,3 +1,8 @@
+.container>.navbar-header {
+    margin-right: 0;
+    margin-left: 0;
+}
+
 .thumbnail {
   border: none !important;
 }
@@ -38,7 +43,6 @@
 }
 
 .tw-title {
-  font-size: 90px;
   color: white;
   font-weight: bold;
 }
@@ -46,4 +50,30 @@
 .tw-chevron-down {
   font-size: 70px;
   color: white;
+  position: absolute;
+  bottom: 50px;
+  right: 0;
+}
+
+.cover {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(21, 21, 25, 0.64);
+  z-index: 0;
+  opacity: 0.5;
+}
+
+
+.bottom-align-text {
+  position: absolute;
+  bottom: 150px;
+  right: 0;
+}
+
+.big_white {
+  color: #FFF;
+  font-size: 140px;
 }
