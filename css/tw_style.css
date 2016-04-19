@@ -96,6 +96,7 @@ p {
 .big_white {
   color: #FFF;
   font-size: 140px;
+  font-size: 8vw;
 }
 
 .vcenter {
