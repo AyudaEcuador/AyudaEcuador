@@ -1,223 +1,262 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <title>Ayuda Ecuador</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet"href="css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <link rel="stylesheet"href="css/tw_style.css"></link>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Ayuda Ecuador</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+    <link rel="stylesheet"href="css/tw_style.css"></link>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
 
-<style>
-	table#t1{
-		border-collapse: collapse;
-	}
-	th{
-		background-color: #eee;
-		color: #235aa9;
-		text-align:center;
-		border-color:gray;}
-	table td{
-		border-color:gray;
-	}
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
 
-	#cover h1 {
-	   color: #fff;
-	   background: rgba(0, 0, 0, 0.4);
-	   font-size: 63px;
-	   line-height: 1.5em;
-	}
-	#cover h2 {
-	   color: #fff;
-	   background: rgba(0, 0, 0, 0.4);
-	   font-size: 28px;
-	   line-height: 1.5em;
-	}
-</style>
-<br>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Ayuda Ecuador</a>
+            </div>
 
-	<nav class="navbar navbar-inverse navbar-fixed-top" style="background-color:#212121;">
-	<div class="container">
-		<div class="navbar-header">
-			<a class="navbar-brand" href="#" style="padding: 15px 0px 0px 0px; color:#FAFAFA;">Ayuda Ecuador</a>
-		</div>
-	</div>
-	</nav>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#quienessomos">Quienes Somos</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#reporte">Reporte</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#recursos">Recursos</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#enlaces">Enlaces</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
 
-	<div class="jumbotron" style="background-image: url(img/quake.jpg); background-size: cover;">
-	  <div id="cover">
-		  <h1 class="text-center jumbotron" style="margin-bottom: 0px">Ayuda Ecuador</h1>
-		  <h2 class="text-center jumbotron" style="margin-top: 0px;">Mapeando Necesidades, Coordinando Respuestas</h2>
-	  </div>
- 	</div>
+    <!-- Intro Section -->
+    <section id="intro" class="intro-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                 
+                    <a class="btn btn-default page-scroll" href="#quienessomos">Conoce mas!</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<h1 style="color: #545454;">¿Quiénes Somos?</h1>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-12">
-				<p style="display: inline-block; font-size:16px;text-align: justify; color: #7e7e7e;">Esta es una plataforma para el mapeo de los informes sobre los daños ocurridos por el terremoto que afectó a las costas ecuatorianas el 16 de abril del 2016. Es una herramienta para el levantamiento colaborativo de datos referentes a las emergencias, amenazas, necesidades logísticas y de respuesta que está viviendo la población afecta. Se trata de una iniciativa impulsada por un grupo de voluntarios de distintos países, para aportar al bien común. Aspiramos a que esta plataforma ayude a canalizar efectivamente los esfuerzos que están realizando las distintas instituciones y organismos que están brindando ayuda en el país.</p>
-			</div>
-		</div>
-		<div class="row row-centered center-block">
-			<div class="col-md-12 text-center">
-				<a class="btn btn-default btn-xlg center-block" href="https://docs.google.com/document/d/1wsXzXGzTKtbIrmseOMF06ulYmuhbuSyti08wpDOcHPk/edit#heading=h.o76fkfmt7s6i"  target="_blank"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>  Conoce Más</a>
-			</div>
-		</div>
-
-		<hr>
-		<div class="row">
-			<div class="col-md-12">
-				<h1 style="color: #545454;">Reporte su emergencia, daño o pedido de ayuda</h1>
-			</div>
-		</div>
-		<div class="row"><br></div>
-		<div class="row">
-			<div class="col-md-6">
-				<!--<a class="btn btn-default btn-lg" role="button" style="font-size:28px; border-color: #d3d3d3; border: none; padding: 0px 0px 0px 0px; width:330px; color:#7e7e7e;" disabled="disabled">--><a href="https://mapa.desastre.ec/reports/submit" target="_blank" style="text-decoration: none;"><img src="img/page-01.png" class="img-responsive" style="max-width: 100%; height: auto; and display: block;"></a>
-				</div>
-				<div class="col-md-5">
-					<a href="https://mapa.desastre.ec/reports/submit" target="_blank" style="text-decoration: none;"><p style="font-size:88px; border: none; padding: 0px 150px 0px 0px; width:570px; color:#7e7e7e;">Haga click<br>aquí.</p>
-					<!--<a class="btn btn-default btn-lg" role="button" style="font-size:88px; border: none; padding: 20px 5px 15px 0px; width:370px; color:#7e7e7e; max-width: 100%" disabled="disabled">Haga click</a>-->
-					<!--<a class="btn btn-default btn-lg" role="button" style="font-size:88px; border: none; padding: 0px 150px 0px 0px; width:370px; color:#7e7e7e;" disabled="disabled">aquí.</a>-->
+    <!-- Quienes Somos Section -->
+    <section id="quienessomos" class="quienessomos-section">
+        <div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h1 style="color: #545454;">¿Quiénes Somos?</h1>
 				</div>
 			</div>
-																																																	
-		<hr>
-
-		<div class="row">
-			<div class="col-md-12">
-				<h1 style="color: #545454;">Recursos Disponibles</h1>
+			<div class="row">
+				<div class="col-lg-12">
+					<p style="display: inline-block; font-size:16px;text-align: justify; color: #7e7e7e;">Esta es una plataforma para el mapeo de los informes sobre los daños ocurridos por el terremoto que afectó a las costas ecuatorianas el 16 de abril del 2016. Es una herramienta para el levantamiento colaborativo de datos referentes a las emergencias, amenazas, necesidades logísticas y de respuesta que está viviendo la población afecta. Se trata de una iniciativa impulsada por un grupo de voluntarios de distintos países, para aportar al bien común. Aspiramos a que esta plataforma ayude a canalizar efectivamente los esfuerzos que están realizando las distintas instituciones y organismos que están brindando ayuda en el país.</p>
+				</div>
 			</div>
-		</div>
-		<div class="row"><br></div>
-		<div class="row">
-			<div class="col-md-4 text-center">
-				<a class="btn btn-default btn-xlg center-block" href="https://mapa.desastre.ec/" role="button" target="_blank"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>  Mapa del desastre</a>
+			<div class="row row-centered center-block">
+				<div class="col-lg-12 text-center">
+					<a class="btn btn-default btn-xlg center-block" href="https://docs.google.com/document/d/1wsXzXGzTKtbIrmseOMF06ulYmuhbuSyti08wpDOcHPk/edit#heading=h.o76fkfmt7s6i"  target="_blank"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>  Conoce Más</a>
+				</div>
 			</div>
-			<div class="col-md-4 text-center">
-				<a class="btn btn-default btn-xlg text-center" href="https://docs.google.com/forms/d/1MzwMc_TBgDfF4_LiJHNsaTpFEC_RG-om1dQInvpzUV4/viewform#responses" role="button" target="_blank"><span class="glyphicon glyphicon-hand-up" aria-hidden="true"></span>   Únete</a>
-		        </div>
-			<div class="col-md-4 text-center">
-				<a class="btn btn-default btn-xlg text-center" href="https://google.org/personfinder/2016-ecuador-earthquake/" role="button" target="_blank";><span class="glyphicon glyphicon-search" aria-hidden="true"></span>   Buscador de personas</a>
+        </div>
+    </section>
+
+    <!-- Reporte Section -->
+    <section id="reporte" class="reporte-section">
+        <div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<h1 style="color: #545454;">Reporte su emergencia, daño o pedido de ayuda</h1>
+				</div>
 			</div>
-		</div>
-
-		<hr>
-
-
-    <div class="row">
-	    <div class="col-lg-12">
-	        <h1 style="color: #545454;">Enlaces de Información Oficial</h1>
-	    </div>
-    </div>
-
-    <div class="row text-center">
-		<div class="col-md-3 col-sm-6 hero-feature">
-			<a href="http://www.w3schools.com" target="_blank">
-			<div class="thumbnail">
-				<a href="http://www.gestionderiesgos.gob.ec/" target="_blank">
-		        <img src="img/logos/riesgos_ecuador.png" class="img-circle logo" alt="" >
-			<div class="caption">
-				<h3>Secretaría de Gestión de Riesgos</h3>
+			<div class="row">
+				<div class="col-lg-6">
+					<a href="https://mapa.desastre.ec/reports/submit" target="_blank" style="text-decoration: none;"><img src="img/page-01.png" class="img-responsive" style="max-width: 100%; height: auto; and display: block;"></a>
+				</div>
+				<div class="col-lg-5">
+					<a href="https://mapa.desastre.ec/reports/submit" target="_blank" style="text-decoration: none;"><p style="font-size:88px; border: none; padding: 0px 150px 0px 0px; width:570px; color:#7e7e7e;">Haga click<br>aquí.</p></a>
+				</div>
 			</div>
-		</a>
-		    </div>
-		</div>
+        </div>
+    </section>
 
-		<div class="col-md-3 col-sm-6 hero-feature">
-			<a href="http://www.ministeriointerior.gob.ec/" target="_blank">
-			<div class="thumbnail">
-		        <img src="img/logos/ministerio_interior.jpg" class="img-circle logo" alt="" >
-		        <div class="caption">
-		            <h3>Ministerio del Interior</h3>
-		    </div>
-	    </a>
-		    </div>
-		</div>
+    <!-- Recursos Section -->
+    <section id="recursos" class="recursos-section">
+        <div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h1 style="color: #545454;">Recursos Disponibles</h1>
+				</div>
+			</div>
+			<div class="row"><br></div>
+			<div class="row">
+				<div class="col-md-4 text-center">
+					<a class="btn btn-default btn-xlg center-block" href="https://mapa.desastre.ec/" role="button" target="_blank"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>  Mapa del desastre</a>
+				</div>
+				<div class="col-md-4 text-center">
+					<a class="btn btn-default btn-xlg text-center" href="https://docs.google.com/forms/d/1MzwMc_TBgDfF4_LiJHNsaTpFEC_RG-om1dQInvpzUV4/viewform#responses" role="button" target="_blank"><span class="glyphicon glyphicon-hand-up" aria-hidden="true"></span>   Únete</a>
+			        </div>
+				<div class="col-md-4 text-center">
+					<a class="btn btn-default btn-xlg text-center" href="https://google.org/personfinder/2016-ecuador-earthquake/" role="button" target="_blank";><span class="glyphicon glyphicon-search" aria-hidden="true"></span>   Buscador de personas</a>
+				</div>
+			</div>
+        </div>
+    </section>
 
-		<div class="col-md-3 col-sm-6 hero-feature">
-			 <a href="http://www.defensa.gob.ec/" target="_blank">
-			<div class="thumbnail">
-		        <img src="img/logos/defensa.jpg" class="img-circle logo" alt="" >
-		        <div class="caption">
-		            <h3>Ministerio de Defensa</h3>
-		    </div>
-	    </a>
-		    </div>
-		</div>
+    <!-- Enlaces Section -->
+    <section id="enlaces" class="enlaces-section">
+    	<div class="container">
+		    <div class="row">
+			    <div class="col-lg-12">
+			        <h1 style="color: #545454;">Enlaces de Información Oficial</h1>
+			    </div>
+    		</div>
 
-		<div class="col-md-3 col-sm-6 hero-feature">
-			 <a href="http://www.igepn.edu.ec" target="_blank">
-			<div class="thumbnail">
-		        <img src="img/logos/instituto_geofisico.jpeg" class="img-circle logo" alt="" >
-		        <div class="caption">
-		            <h3>Instituto Geofísico</h3>
-		    </div>
-	    </a>
-		    </div>
-		</div>
-	</div>
+    		<div class="row text-center">
+				<div class="col-md-3 col-sm-6 hero-feature">
+					<a href="http://www.gestionderiesgos.gob.ec/" target="_blank">
+						<div class="thumbnail">
+		        			<img src="img/logos/riesgos_ecuador.png" class="img-circle logo" alt="" />
+							<div class="caption">
+								<h3>Secretaría de Gestión de Riesgos</h3>
+							</div>
+		    			</div>
+	    			</a>
+				</div>
 
+				<div class="col-md-3 col-sm-6 hero-feature">
+					<a href="http://www.ministeriointerior.gob.ec/" target="_blank">
+						<div class="thumbnail">
+		    		 		<img src="img/logos/ministerio_interior.jpg" class="img-circle logo" alt="" />
+		       				<div class="caption">
+		            			<h3>Ministerio del Interior</h3>
+		    				</div>
+		    			</div>
+	    			</a>
+				</div>
 
-    <div class="row text-center">
-	     <a href="http://www.inocar.mil.ec/" target="_blank">
-	    <div class="col-md-3 col-sm-6 hero-feature">
-		    <div class="thumbnail">
-		        <img src="img/logos/inocar.png" class="img-circle logo" alt="" >
-		        <div class="caption">
-		            <h3>INOCAR</h3>
-		    </div>
-	    </a>
-		    </div>
-		</div>
+				<div class="col-md-3 col-sm-6 hero-feature">
+					 <a href="http://www.defensa.gob.ec/" target="_blank">
+						<div class="thumbnail">
+		  			    	<img src="img/logos/defensa.jpg" class="img-circle logo" alt="" />
+		        			<div class="caption">
+		           				<h3>Ministerio de Defensa</h3>
+		    				</div>
+		    			</div>
+				</div>
 
-		<div class="col-md-3 col-sm-6 hero-feature">
-			 <a href="http://www.seguridad.gob.ec/" target="_blank">
-			<div class="thumbnail"> 
-		        <img src="img/logos/ministerio_seguridad.jpg" class="img-circle logo" alt="" >
-		        <div class="caption">
-		            <h3>Ministerio Coordinador de Seguridad</h3>
-		    </div>
-	    </a>
-		    </div>
-		</div>
-
-		<div class="col-md-3 col-sm-6 hero-feature">
-			<a href="http://www.ecu911.gob.ec/" target="_blank">
-			<div class="thumbnail">
-		        <img src="img/logos/ecu911.jpg" class="img-circle logo" alt="" >
-		        <div class="caption">
-		            <h3>ECU-911</h3>
-		    </div>
-	    </a>
-		    </div>
-		</div>
-
-		<div class="col-md-3 col-sm-6 hero-feature">
-			 <a href="http://www.cruzroja.org.ec" target="_blank">
-			<div class="thumbnail">
-		        <img src="img/logos/cruz_roja.jpg" class="img-circle logo" alt="" >
-		        <div class="caption">
-		            <h3>Cruz Roja Ecuador</h3>
-		    </div>
-	    </a>
-		    </div>
-		</div>
-	</div>
-</div><!-----CONTAINER ---->
-<br>
-<br>
-<br>
+				<div class="col-md-3 col-sm-6 hero-feature">
+					<a href="http://www.igepn.edu.ec" target="_blank">
+						<div class="thumbnail">
+					        <img src="img/logos/instituto_geofisico.jpeg" class="img-circle logo" alt="" />
+					        <div class="caption">
+				          		<h3>Instituto Geofísico</h3>
+				    		</div>
+				    	</div>
+					</a>
+				</div>
+			</div>
 
 
-			</body>
+    		<div class="row text-center">
+			    <div class="col-md-3 col-sm-6 hero-feature">
+		    		<a href="http://www.inocar.mil.ec/" target="_blank">
+		    			<div class="thumbnail">
+		        			<img src="img/logos/inocar.png" class="img-circle logo" alt="" />
+		       				<div class="caption">
+		            			<h3>INOCAR</h3>
+		   					</div>
+		    			</div>
+					</a>
+				</div>
+
+			    <div class="col-md-3 col-sm-6 hero-feature">
+		    		<a href="http://www.seguridad.gob.ec/" target="_blank">
+		    			<div class="thumbnail">
+		        			<img src="img/logos/ministerio_seguridad.jpg" class="img-circle logo" alt="" />
+		       				<div class="caption">
+		            			<h3>Ministerio Coordinador de Seguridad</h3>
+		   					</div>
+		    			</div>
+					</a>
+				</div>				
+
+			    <div class="col-md-3 col-sm-6 hero-feature">
+		    		<a href="http://www.ecu911.gob.ec/" target="_blank">
+		    			<div class="thumbnail">
+		        			<img src="img/logos/ecu911.jpg" class="img-circle logo" alt="" />
+		       				<div class="caption">
+		            			<h3>ECU-911</h3>
+		   					</div>
+		    			</div>
+					</a>
+				</div>
+
+			    <div class="col-md-3 col-sm-6 hero-feature">
+		    		<a href="http://www.cruzroja.org.ec" target="_blank">
+		    			<div class="thumbnail">
+		        			<img src="img/logos/cruz_roja.jpg" class="img-circle logo" alt="" />
+		       				<div class="caption">
+		            			<h3>Cruz Roja Ecuador</h3>
+		   					</div>
+		    			</div>
+					</a>
+				</div>				
+    	</div>
+    </section>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+
+</body>
+
 </html>
