@@ -41,42 +41,45 @@ of those sections to manage the look and feel of the site. */
 }
 
 .quienessomos-section {
-    padding-top: 50px;
+    padding-top: 30px;
     text-align: center;
-    background: #eee;
+    background: #424242;
     padding-bottom: 50px;
+    color: #FFF;
 }
 
 .reporte-section {
-    padding-top: 50px;
+    padding-top: 30px;
     text-align: center;
     background: #fff;
     padding-bottom: 50px;
 }
 
 .recursos-section {
-    padding-top: 50px;
+    padding-top: 30px;
     text-align: center;
-    background: #eee;
+    background: #424242;
     padding-bottom: 50px;
+    color: #FFF;
 }
 
 .enlaces-section {
-    padding-top: 50px;
+    padding-top: 30px;
     text-align: center;
     background: #fff;
     padding-bottom: 50px;
 }
 
 .mapa-section {
-    padding-top: 50px;
+    padding-top: 30px;
     text-align: center;
-    background: #eee;
+    background: #424242;
     padding-bottom: 50px; 
+    color: #FFF;
 }
 
 .ayuda-section {
-    padding-top: 50px;
+    padding-top: 30px;
     text-align: center;
     background: #fff;
     padding-bottom: 50px;
