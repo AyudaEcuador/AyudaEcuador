@@ -66,19 +66,26 @@ of those sections to manage the look and feel of the site. */
 .enlaces-section {
     padding-top: 30px;
     text-align: center;
-    background: #fff;
+    background: #424242;
     padding-bottom: 50px;
 }
 
 .mapa-section {
     padding-top: 30px;
     text-align: center;
-    background: #424242;
+    background: #FFF;
     padding-bottom: 50px; 
     color: #FFF;
 }
 
 .ayuda-section {
+    padding-top: 30px;
+    text-align: center;
+    background: #424242;
+    padding-bottom: 50px;
+}
+
+.sms-section {
     padding-top: 30px;
     text-align: center;
     background: #fff;
