@@ -61,7 +61,7 @@ body {
 }
 
 .btn-main {
-  font-size: 2vw;
+  font-size: 1vw;
   border-color: #d3d3d3;
   border-style: solid;
   border-width: 2px;
@@ -129,6 +129,12 @@ p {
   right: 0;
 }
 
+.center-align-text {
+  position: absolute;
+  bottom: 270px;
+  right: 0;
+}
+
 .big_white {
   color: #FFF;
   font-size: 140px;
@@ -156,4 +162,8 @@ footer {
 .btn-responsive {
   white-space: normal;
   word-wrap: break-word;
+}
+
+.sms_message {
+  color: white;
 }
