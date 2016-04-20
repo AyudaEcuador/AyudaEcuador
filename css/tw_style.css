@@ -58,6 +58,17 @@ body {
   color:#7e7e7e;
 }
 
+.btn-main {
+  font-size:30px;
+  border-color: #d3d3d3;
+  border-style: solid;
+  border-width: 2px;
+  width:445px;
+  background-color: #f6f6f6;
+  margin-top: 50px;
+  color:#7e7e7e;
+}
+
 .tw-blue{
   background-color: #80D8FF;
 }
