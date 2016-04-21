@@ -79,7 +79,7 @@ body {
     background-color: ##00B0FF !important;
 }
 
-.tw-title {
+.white-title {
   color: white;
   font-weight: bold;
 }
@@ -137,8 +137,18 @@ p {
 
 .big_white {
   color: #FFF;
-  font-size: 140px;
-  font-size: 8vw;
+  font-size: 120px;
+  font-size: 7vw;
+}
+
+.report-options {
+  color: white;
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.white {
+  color: white;
 }
 
 .vcenter {
@@ -159,8 +169,23 @@ footer {
   height: 60px;
 }
 
-.sms_message {
+.report-message {
   color: white;
   font-size: 26px;
-  font-size: 2vw;
+}
+
+@media screen and (min-width : 1000px)  {
+  .report-message {
+    font-size: 35px;
+  }
+}
+
+@media screen and (min-width : 320px) and (max-width : 767px) {
+  .report-message {
+    font-size: 20px;
+  }
+  .white-title {
+    font-size: 35px;
+    font-weight: lighter;;
+  }
 }
