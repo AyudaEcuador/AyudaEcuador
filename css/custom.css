@@ -189,3 +189,9 @@ footer {
     font-weight: lighter;;
   }
 }
+
+@media screen and (min-height : 320px) and (max-height : 820px) {
+  #slogan {
+    display: none;
+  }
+}
