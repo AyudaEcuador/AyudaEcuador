@@ -34,62 +34,28 @@ of those sections to manage the look and feel of the site. */
 .intro-section {
     height: 100%;
     padding-top: 150px;
-    text-align: center;
-    background: #fff;
     background-image: url(../img/hug.jpg);
     background-size: cover;
 }
 
-.quienessomos-section {
-    padding-top: 30px;
-    text-align: center;
-    background: #424242;
-    padding-bottom: 50px;
-    color: #FFF;
+body > section {
+  padding-top: 30px;
+  text-align: center;
+  padding-bottom: 50px;
 }
 
-.reporte-section {
-    padding-top: 30px;
-    text-align: center;
-    background: #fff;
-    padding-bottom: 50px;
+.dark-section {
+  background-color: #424242;
+  color: #fff;
 }
 
-.recursos-section {
-    padding-top: 30px;
-    text-align: center;
-    background: #424242;
-    padding-bottom: 50px;
-    color: #FFF;
+.dark-section p {
+  color: #fff;
 }
 
-.enlaces-section {
-    padding-top: 30px;
-    text-align: center;
-    background: #424242;
-    padding-bottom: 50px;
-}
-
-.mapa-section {
-    padding-top: 30px;
-    text-align: center;
-    background: #FFF;
-    padding-bottom: 50px;
-    color: #FFF;
-}
-
-.ayuda-section {
-    padding-top: 30px;
-    text-align: center;
-    background: #424242;
-    padding-bottom: 50px;
-}
-
-.sms-section {
-    padding-top: 30px;
-    text-align: center;
-    background: #fff;
-    padding-bottom: 50px;
+.prensa-section a {
+  color: #fff;
+  text-decoration: underline;
 }
 
 @media screen and (min-width : 320px) and (max-width : 767px) {
