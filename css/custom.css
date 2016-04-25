@@ -1,18 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
-
 html {
   position: relative;
   min-height: 100%;
 }
-
 body {
-  /* Margin bottom by footer height */
   padding-top: 50px;
   margin-bottom: 60px;
   font-family: 'Roboto', sans-serif;
   font-size: 1.5rem;
 }
-
 .footer {
   position: relative;
   bottom: 0;
@@ -20,35 +16,28 @@ body {
   height: 60px;
   background-color: white;
 }
-
 .footer > .container {
   padding-top: 5px;
   padding-right: 15px;
   padding-left: 15px;
 }
-
 .container > .navbar-header {
   margin-right: 0;
   margin-left: 0;
 }
-
 .thumbnail {
   border: none !important;
 }
-
-.thumbnail > img{
+.thumbnail > img {
   width: 100px;
-  height:100px;
+  height: 100px;
 }
-
 .thumbnail h3 {
   font-size: 20px;
 }
-
 .information-tag a {
   text-decoration: none;
 }
-
 .bw {
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
@@ -56,114 +45,93 @@ body {
   -ms-transition: all 1s ease;
   transition: all 1s ease;
 }
-			       
 .bw:hover {
   -webkit-filter: grayscale(100%);
 }
-
 .logo {
-  width:75px;
+  width: 75px;
   height: 75px;
 }
-
-.btn-default{
+.btn-default {
   border-radius: 24px;
   margin-bottom: 5px;
 }
-
-.btn-xlg{
-  font-size:28px;
+.btn-xlg {
+  font-size: 28px;
   border-color: #d3d3d3;
   border-style: solid;
   border-width: 3px;
-  width:345px;
-  color:#7e7e7e;
+  width: 345px;
+  color: #7e7e7e;
 }
-
 .tw-blue {
   background-color: #80d8ff;
 }
-
 .tw-blue:hover {
   background-color: ##00b0ff !important;
 }
-
 .white-title {
   color: white;
   font-weight: bold;
 }
-
 .tw-chevron-down {
   font-size: 70px;
   color: white;
   right: 0;
 }
-
 .cover {
   position: absolute;
   background: rgba(21, 21, 25, 0.64);
   z-index: 0;
   opacity: 0.5;
 }
-
 p {
   font-size: 16px;
   color: #7e7e7e;
 }
-
 .list {
   text-align: justify;
   margin-bottom: 0.5em;
   font-size: 16px;
   color: #7e7e7e;
 }
-
 .insideList {
   text-align: justify;
   margin-bottom: 0.5em;
   font-size: 14px;
   color: #7e7e7e;
 }
-
-
 .bottom-align-text {
   position: absolute;
   bottom: 150px;
   right: 0;
 }
-
 .center-align-text {
   position: absolute;
   bottom: 300px;
   right: 0;
 }
-
 .big_white {
   color: #ffffff;
   font-size: 120px;
   font-size: 7vw;
 }
-
 .report-options {
   color: white;
   font-size: 30px;
   margin-top: 20px;
 }
-
 .white {
   color: white;
 }
-
 .vcenter {
   display: inline-block;
   vertical-align: middle;
   float: none;
 }
-
-.tw-map{
+.tw-map {
   border: 0;
 }
-
 footer {
   background-color: #424242;
   position: absolute;
@@ -171,34 +139,30 @@ footer {
   width: 100%;
   height: 60px;
 }
-
 .report-message {
   color: white;
   font-size: 26px;
 }
-
 .recursos-section .btn {
   white-space: normal;
   font-size: 18px;
 }
-
-@media screen and (min-width : 1000px)  {
+@media screen and (min-width: 1000px) {
   .report-message {
     font-size: 35px;
   }
 }
-
-@media screen and (min-width : 320px) and (max-width : 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .report-message {
     font-size: 20px;
   }
   .white-title {
     font-size: 35px;
-    font-weight: lighter;;
+    font-weight: lighter;
+    ;
   }
 }
-
-@media screen and (min-height : 320px) and (max-height : 820px) {
+@media screen and (min-height: 320px) and (max-height: 820px) {
   #slogan {
     display: none;
   }
