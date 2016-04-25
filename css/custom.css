@@ -113,8 +113,6 @@ p {
 }
 .big_white {
   color: #ffffff;
-  font-size: 120px;
-  font-size: 7vw;
 }
 .report-options {
   color: white;
@@ -151,10 +149,16 @@ footer {
   .report-message {
     font-size: 35px;
   }
+  .big_white {
+    font-size: 120px;
+  }
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .report-message {
     font-size: 20px;
+  }
+  .big_white {
+    font-size:50px;
   }
   .white-title {
     font-size: 35px;
