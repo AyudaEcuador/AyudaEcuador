@@ -145,6 +145,16 @@ footer {
   white-space: normal;
   font-size: 18px;
 }
+a.boletin-links {
+  text-decoration: none;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  transition: .5s;
+}
+a.boletin-links:hover { 
+  color:gray; 
+}
 @media screen and (min-width: 1000px) {
   .report-message {
     font-size: 35px;
