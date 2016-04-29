@@ -8,7 +8,7 @@ Esta es una plataforma para el mapeo de los informes sobre los daños ocurridos 
 
 ## Despliegues
 
-Los despliegues se hacen automaticamente al ambiente de [beta](http://beta.desastre.ec/) y manualmente al ambiente de [producción](http://desastre.ec/) utilizando [SnapCI](https://snap-ci.com/desastre-ecuador/AyudaEcuador/branch/master).
+Los despliegues se hacen automaticamente al ambiente de [beta](https://beta.ayudaecuador.ec) y manualmente al ambiente de [producción](https://ayudaecuador.ec) utilizando [SnapCI](https://snap-ci.com/desastre-ecuador/AyudaEcuador/branch/master).
 
 [https://snap-ci.com/desastre-ecuador/AyudaEcuador/branch/master](https://snap-ci.com/desastre-ecuador/AyudaEcuador/branch/master)
 
